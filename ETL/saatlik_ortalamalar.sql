@@ -11,7 +11,7 @@ SELECT SUBSTRING(convert(varchar, ZAMAN, 20),0,14) as zaman,
 		cast(RUZGAR_HIZI as float) as ruzgar,
 		cast(YAGIS as float) as yagis
 		--,cast(zaman as datetime) as zaman2
-FROM [zemin].[dbo].[3]
+FROM [besiktas].[dbo].[havadurumu]
 ) 
 select zaman,
 	AVG(sicaklik) as ort_sicaklik,
