@@ -14,10 +14,10 @@ SELECT SUBSTRING(convert(varchar, ZAMAN, 20),0,14) as zaman,
 FROM [zemin].[dbo].[3]
 ) 
 select zaman,
-	AVG(sicaklik) as sicaklik,
-	AVG(nem) as nem,
-	AVG(ruzgar) as ruzgar,
-	AVG(yagis) as yagis
+	AVG(sicaklik) as ort_sicaklik,
+	AVG(nem) as ort_nem,
+	AVG(ruzgar) as ort_ruzgar,
+	AVG(yagis) as ort_yagis
 FROM cte
 GROUP BY zaman
 ORDER BY zaman
