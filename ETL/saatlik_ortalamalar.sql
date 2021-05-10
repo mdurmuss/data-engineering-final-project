@@ -1,7 +1,7 @@
 /****** 
-"Beşiktaş Hava Durumu.csv" dosyası veritabanına varchar olarak atıldı.   
-Sütun isimleri default olarak kaldı, veritabanına atabilmek için : işaretleri ; ile virgüller de noktayla değiştirildi.
-Dönüşümler aşağıdaki sorgu ile yapıldı.
+"BeÅŸiktaÅŸ Hava Durumu.csv" dosyasÄ± veritabanÄ±na varchar olarak atÄ±ldÄ±.   
+SÃ¼tun isimleri default olarak kaldÄ±, veritabanÄ±na atabilmek iÃ§in : iÅŸaretleri ; ile virgÃ¼ller de noktayla deÄŸiÅŸtirildi.
+DÃ¶nÃ¼ÅŸÃ¼mler aÅŸaÄŸÄ±daki sorgu ile yapÄ±ldÄ±.
 ******/
 with cte as
 (
@@ -10,7 +10,7 @@ SELECT SUBSTRING(convert(varchar, ZAMAN, 20),0,14) as zaman,
 		cast(NEM as float) as nem,
 		cast(RUZGAR_HIZI as float) as ruzgar,
 		cast(YAGIS as float) as yagis
-		--,cast(zaman as datetime) as zaman2
+		--,cast(ZAMAN as datetime) as zaman2
 FROM [besiktas].[dbo].[havadurumu]
 ) 
 select zaman,
