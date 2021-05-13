@@ -1,6 +1,7 @@
 /****** 
 "Beşiktaş Hava Durumu.csv" dosyası veritabanına varchar olarak atıldı.   
-Sütun isimleri default olarak kaldı, veritabanına atabilmek için : işaretleri ; ile virgüller de noktayla değiştirildi.
+Sütun isimleri default olarak kaldı, veritabanına atabilmek için csv'de ayırıcı olarak kullanılan : işaretleri ; ile virgüller de noktayla değiştirildi.
+Yağış verisinde olan -999 değerleri 0 olarak değiştirildi.
 Dönüşümler aşağıdaki sorgu ile yapıldı.
 ******/
 with cte as
