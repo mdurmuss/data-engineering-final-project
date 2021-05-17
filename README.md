@@ -2,7 +2,7 @@
 
 <p> <img src="https://pbs.twimg.com/profile_images/1341352412540530688/EJfGb11W_400x400.jpg"> </img></p>
 
-[Data Engineering Masterclass (DEMC–201)](https://datamasterclass.zeministanbul.ist/) eğitimi kapsamında ekip olarak geliştirilen final projesi kaynak kodlarını içerir.
+[Data Engineering Masterclass (DEMC–201)](https://datamasterclass.zeministanbul.ist/) eğitimi kapsamında 6.ekip olarak geliştirilen final projesi kaynak kodlarını içermektedir.
 
 ## Eğitim
 
@@ -14,7 +14,7 @@ Data Engineering Masterclass (DEMC–201) veri odaklı teknolojik ürün gelişt
 
 **Makine öğrenmesi teknikleri kullanılarak uygun bakım saati tahmin edilerek bakımların optimum zaman aralığında yapılmasının sağlanması hedeflenmiştir.**
 
-**Kullandığımız Veriler**
+**Kullanılan Veriler**
 
 - İlgili tarih aralığında saatlik hız verisi
 
@@ -24,7 +24,7 @@ Data Engineering Masterclass (DEMC–201) veri odaklı teknolojik ürün gelişt
 
 - Saatlik yağış miktarı verisi
 
-**Karşılaştığımız zorluklar**
+**Karşılaşılan zorluklar**
 
 - Yol bakım çalışmalarının saatlik yerine gece/gündüz olarak ayrılmış olması.
 
